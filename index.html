@@ -8,7 +8,9 @@
 </head>
 
 <body>
-    <form onsubmit="myFunction()">
+    <form onsubmit="myFunction(); return false;">
+        <h2>Form Validation</h2>
+        <h3>HTML5</h3>
         <input id="name"  type="text" required minlength="2" placeholder="Bitte Namen eingeben">
         <input type="email" required placeholder="Bitte email eingeben">
         <input  type="number" required min="18" placeholder="Bitte Alter eingeben">
